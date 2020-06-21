@@ -1,6 +1,7 @@
 function invoiceTotal() {
   var args = Array.from(arguments);
   var reducer = (accumulator, currentValue) => accumulator + currentValue;
+  
   return args.reduce(reducer);
 }
 
